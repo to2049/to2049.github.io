@@ -1,0 +1,95 @@
+/* https://simples.jekyllthemes.io */
+
+html {
+    font-size: 100%;
+    -webkit-overflow-scrolling: touch;
+    -webkit-tap-highlight-color: transparent;
+    -webkit-text-size-adjust: 100%;
+    -ms-text-size-adjust:100%;
+}
+
+body {
+    margin: 0;
+    text-rendering:optimizeLegibility
+    background: #fff;
+    font-family: Nunito, sans-serif;
+    font-weight: 400;
+    font-style: normal;
+    line-height: 1;
+    color: #6c7a89;
+}
+
+a {
+    text-decoration: none;
+}
+
+.flex-wrap {
+    display: -webkit-flex;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.flex-row {
+    flex-direction: row;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.avatar {
+    margin: 46px;
+    width: 240px;
+    height: 240px;
+    border-radius: 50%;
+    overflow: hidden;
+}
+.avatar:hover {
+    -moz-transform: scale(1.05);
+    -o-transform: scale(1.05);
+    -ms-transform: scale(1.05);
+    -webkit-transform: scale(1.05);
+    transform: scale(1.05);
+}
+
+.title {
+    font-family: Nunito, sans-serif;
+    font-size: 27px;
+    font-weight: 600;
+    letter-spacing: 0;
+    line-height: 1;
+    color: #2a2f36;
+}
+.title:hover {
+    color: #f5891d;
+}
+
+.tagline {
+    margin-top: 10px;
+    font-family: Nunito, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    letter-spacing: 0;
+    line-height: 1.5;
+}
+
+.list-ul {
+    padding: 0;
+}
+
+.list-li {
+    display: inline-block;
+    padding: 0 10px;
+}
+
+.list-a {
+    font-size: 16px;
+    font-weight: 600;
+    color: #2a2f36;
+    border-bottom: 2px solid transparent;
+}
+
+.list-a:hover {
+    color: #f5891d;
+}
